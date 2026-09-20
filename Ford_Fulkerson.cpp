@@ -2,7 +2,6 @@ class Ford_fulkerson{
 public:
     vector<vector<int>> f , cap , adj;
     vector<int> trace , dist;    
-    int n;
 
     void init(int num_node){
         dist.assign(num_node + 1 , -1);
