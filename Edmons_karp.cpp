@@ -18,6 +18,7 @@ class Edmons_karp{
         vector<int> level , index;
 
         void init(int num_node){
+            edg.clear();
             adj.assign(num_node + 1 , vector<int>());
             level.assign(num_node + 1 , -1);
             index.assign(num_node + 1 , 0);
